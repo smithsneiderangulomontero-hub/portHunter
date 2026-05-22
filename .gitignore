@@ -1,0 +1,20 @@
+# Binarios compilados
+/porthunter
+/porthunter.exe
+
+# Dependencias cacheadas (las descarga go mod)
+vendor/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Configuración local con credenciales (si agregas una)
+.env
+*.local
